@@ -1,0 +1,12 @@
+appId: dev.bytetribe.opengym
+---
+- launchApp:
+    clearState: true
+- tapOn: "Load starter plan"
+- tapOn: "Start"
+- assertVisible: "Start workout"
+- tapOn: "Push Day"
+- assertVisible: "Finish workout early"
+- stopApp
+- launchApp
+- assertVisible: "Finish workout early"

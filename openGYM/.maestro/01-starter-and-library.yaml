@@ -1,0 +1,12 @@
+appId: dev.bytetribe.opengym
+---
+- launchApp:
+    clearState: true
+- assertVisible: "openGym"
+- tapOn: "Load starter plan"
+- tapOn: "Exercises"
+- assertVisible: "Exercises"
+- tapOn: "Search exercises"
+- inputText: "squat"
+- assertVisible:
+    text: ".*[Ss]quat.*"

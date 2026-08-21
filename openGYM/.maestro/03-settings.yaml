@@ -1,0 +1,9 @@
+appId: dev.bytetribe.opengym
+---
+- launchApp
+- tapOn: "Settings"
+- assertVisible: "Local-only · no account · no cloud"
+- tapOn: "light"
+- tapOn: "lb"
+- tapOn: "Change"
+- assertVisible: "openGym · AGPL-3.0"

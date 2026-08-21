@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "openGym",
+    "slug": "opengym",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/branding/icon.png",
+    "scheme": "opengym",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "dev.bytetribe.opengym",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CADisableMinimumFrameDurationOnPhone": true
+      }
+    },
+    "android": {
+      "package": "dev.bytetribe.opengym",
+      "permissions": [
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#0c0e12",
+        "foregroundImage": "./assets/branding/icon.png"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      [
+        "expo-notifications",
+        {
+          "color": "#2bd65b"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0c0e12",
+          "image": "./assets/branding/icon.png",
+          "imageWidth": 128
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundPlayback": false
+        }
+      ],
+      "expo-sharing",
+      "expo-asset"
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}
