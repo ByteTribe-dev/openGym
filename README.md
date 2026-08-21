@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/branding/icon.png" alt="openGym icon" width="128" height="128">
+<img src="openGYM/assets/branding/icon.png" alt="openGym icon" width="128" height="128">
 
 <h1>openGym</h1>
 
@@ -26,10 +26,10 @@ history on your own device—without an account, subscription, backend, or telem
 <div align="center">
 <table>
 <tr>
-<td align="center"><img src="docs/screenshots/home.png" alt="openGym home screen" width="210"><br><sub><b>Home</b> — today, streaks, and recent training</sub></td>
-<td align="center"><img src="docs/screenshots/workout.png" alt="openGym active workout screen" width="210"><br><sub><b>Workout</b> — guided set logging and timers</sub></td>
-<td align="center"><img src="docs/screenshots/exercises.png" alt="openGym exercise library screen" width="210"><br><sub><b>Exercises</b> — 1,324 bundled movements</sub></td>
-<td align="center"><img src="docs/screenshots/stats.png" alt="openGym statistics screen" width="210"><br><sub><b>Stats</b> — volume, effort, and muscle balance</sub></td>
+<td align="center"><img src="openGYM/docs/screenshots/home.png" alt="openGym home screen" width="210"><br><sub><b>Home</b> — today, streaks, and recent training</sub></td>
+<td align="center"><img src="openGYM/docs/screenshots/workout.png" alt="openGym active workout screen" width="210"><br><sub><b>Workout</b> — guided set logging and timers</sub></td>
+<td align="center"><img src="openGYM/docs/screenshots/exercises.png" alt="openGym exercise library screen" width="210"><br><sub><b>Exercises</b> — 1,324 bundled movements</sub></td>
+<td align="center"><img src="openGYM/docs/screenshots/stats.png" alt="openGym statistics screen" width="210"><br><sub><b>Stats</b> — volume, effort, and muscle balance</sub></td>
 </tr>
 </table>
 </div>
